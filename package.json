@@ -1,6 +1,7 @@
 {
-  "name": "hello_template",
+  "name": "contract_bun_template",
   "module": "index.ts",
+  "license": "MIT,
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"

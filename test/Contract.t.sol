@@ -20,4 +20,11 @@ contract TestContract is Test {
         vm.assume(x < type(uint128).max);
         assertEq(x + x, x * 2);
     }
+  
+    function testExample() public {
+        vm.roll(100);
+        console.log(1);
+        emit log("hi");
+        assertTrue(true);
+    }
 }
